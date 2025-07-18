@@ -1,224 +1,215 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
   <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Front-end and Vue Developer">
-    <meta name="keywords" content="resume,cv,Marko Marković">
-    <meta name="author" content="Marko Marković">
+    <meta charset="UTF-8" />
+    <meta name="description" content="Front-end and Vue Developer" />
+    <meta name="keywords" content="resume,cv,Marko Marković" />
+    <meta name="author" content="Marko Marković" />
     <!-- <meta name="robots" content="noindex"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
-    <link href="./build.css" rel="stylesheet">
+    <link href="./build.css" rel="stylesheet" />
     <title>Alexis Garado — Resume</title>
   </head>
 
   <body>
     <main class="font-firago hyphens-manual">
-
       <!-- Page -->
-      <div class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white">
-
+      <div
+        class="p-6 mx-auto page max-w-2xl print:max-w-letter md:max-w-letter md:h-letter xsm:p-8 sm:p-9 md:p-16 bg-white"
+      >
         <!-- Name -->
         <header class="flex items-center mb-8 md:mb-11">
-          <div   class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
-                 style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/">
-            <div class="initial text-center" style="padding-bottom: 0.1875rem; /*3px*/">A</div>
+          <div
+            class="initials-container mr-5 text-base leading-none text-white bg-gray-700 font-medium print:bg-black px-3"
+            style="padding-bottom: 0.6875rem; padding-top: 0.6875rem; /*11px*/"
+          >
+            <div
+              class="initial text-center"
+              style="padding-bottom: 0.1875rem; /*3px*/"
+            >
+              AG
+            </div>
             <div class="text-center initial">G</div>
           </div>
           <h1 class="text-2xl name font-semibold text-gray-750 pb-px">
             Alexis Garado
-          </h1>
+	  </h1>
         </header>
-        <!-- end Name -->
+	<!-- end Name -->
 
-        <!-- Column -->
-        <div class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto">
-
-
-          <!--  ▄▀█ █▄▄ █▀█ █░█ ▀█▀  -->
-          <!--  █▀█ █▄█ █▄█ █▄█ ░█░  -->
-          <section class="mt-8 first:mt-0">
-            <div class="break-inside-avoid">
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-                ABOUT ME
-              </h2>
-              <section class="mb-4.5 break-inside-avoid">
-                <header>
-                  <p class="leading-normal text-md text-gray-700">
-                  Recent computer engineering graduate seeking full-time embedded software engineering role. Project and academic experience includes embedded software development, real-time systems, autonomous systems, computer architecture, and circuit design.
-                  </p>
-                </header>
-              </section>
-            </div>
-          </section>
-
-          <!-- █▀▀ █▀▄ █░█ █▀▀ ▄▀█ ▀█▀ █ █▀█ █▄░█  -->
-          <!-- ██▄ █▄▀ █▄█ █▄▄ █▀█ ░█░ █ █▄█ █░▀█  -->
-
-          <section class="mt-8 first:mt-0">
-
-            <!-- To keep in the same column -->
-            <div class="break-inside-avoid">
-
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-                EDUCATION
-              </h2>
-
-              <section class="mb-4.5 break-inside-avoid">
-                <header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                    University of California, Santa Cruz
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">
-                  B.S. Computer Engineering (2023)
-                  </p>
-                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                  Relevant coursework: Computer Architecture, Mechatronics, Circuit Design, Data Structures & Algorithms
-                  </p>
-                </header>
-              </section>
-
-            </div>
-
-          </section>
-
-
-          <!-- █▀█ █▀█ █▀█ ░░█ █▀▀ █▀▀ ▀█▀ █▀  -->
-          <!-- █▀▀ █▀▄ █▄█ █▄█ ██▄ █▄▄ ░█░ ▄█  -->
-
-          <section class="mt-8 first:mt-0">
-
-            <!-- To keep in the same column -->
-            <div class="break-inside-avoid">
-
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
-                PROJECTS
-              </h2>
-
-              <section class="mb-4.5 break-inside-avoid">
-                <header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                    Autonomous Robot
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">
-                  Nov - Dec 2022 | C
-                  </p>
-                </header>
-                <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Software lead in a team of 3. We created a robot that accurately located, navigated to, and launched a projectile at a specified target. I developed software for sensor integration, motor control, and an autonomous navigation algorithm running on PIC32 MCU. I also collaborated on hardware design and designed several key sensors for the robot.
-                </p>
-              </section>
-
-
-              <section class="mb-4.5 break-inside-avoid">
-                <header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                    Game Boy Emulator
-                    <!-- <a href="https://github.com/garado/amphy" class="group"> -->
-                    <!--   Game Boy Emulator -->
-                    <!--   <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span> -->
-                    <!-- </a> -->
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">
-                  Since Dec 2022 | C++
-                  </p>
-                </header>
-                <p class="mt-2.1 text-md text-gray-700 leading-normal">
-                Nintendo Game Boy emulator in C++ with working implementation of the CPU and graphics display. Currently porting to Raspberry Pi MCU and interfacing with LCD screen, speakers, and other external peripherals.
-                </p>
-              </section>
-
-            </div>
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Oscilloscope
-                  <!-- <a href="https://github.com/garado/shelloscope" class="group"> -->
-                  <!--   Oscilloscope -->
-                  <!--   <span -->
-                  <!--     class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span> -->
-                  <!-- </a> -->
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                May - June 2022 | C
-                </p>
-              </header>
-              <p class="mt-2.1 text-md text-gray-700 leading-normal">
-              Designed hardware and software for dual-channel oscilloscope running on ARM MCU that reliably detects signals in the 1kHz-20kHz range.
-              </p>
-            </section>
-
-          </section>
-
-
-
-
+	<!-- Column -->
+        <div
+          class="md:col-count-2 print:col-count-2 col-gap-md md:h-letter-col print:h-letter-col col-fill-auto"
+	>
           <!-- █▀▀ ▀▄▀ █▀█ █▀▀ █▀█ █ █▀▀ █▄░█ █▀▀ █▀▀  -->
           <!-- ██▄ █░█ █▀▀ ██▄ █▀▄ █ ██▄ █░▀█ █▄▄ ██▄  -->
 
           <section class="mt-8 first:mt-0">
-
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
-
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
                 EXPERIENCE
               </h2>
 
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Maxar Technologies
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                Jun - Dec 2020; Jun - Sep 2021 | Ground Software Intern
-                </p>
-              </header>
-              <ul class="">
-                <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Developed and improved satellite telemetry archival software in C++
-                </li>
-                <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Automated daily verification of telemetry for 90+ spacecraft, a task that normally took up to 1.5 hours to do manually every day
-                </li>
-                <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Ran unit tests for command and telemetry processing to prepare for new software releases
-                </li>
-                <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Gained experience with agile development methodology
-                </li>
-              </ul>
-            </section>
-            
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Supernal
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Mar 2024 - Present | Embedded Firmware Engineer
+                  </p>
+                </header>
+                <ul class="">
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Develop safety-critical firmware for eVTOL
+                    battery management system in C on ARM Cortex-R5 and Cortex-M7 processors
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Implement low-level drivers (CAN, I2C, SPI, UART, PWM), contactor control for high-voltage
+                    switching, and cell-level and pack-level data acquisition and transmission
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+		    Implement deterministic task scheduling to meet hard real-time constraints on both RTOS and bare-metal systems
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+		    Build a Python-based diagnostic tool to interface with the battery management system via CAN and UART to enable system maintenance, debugging, testing, and real-time monitoring
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    > Decompose complex system-level requirements into actionable software requirements while maintaining full 
+                    traceability throughout the development and testing lifecycle 
+                  </li>
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+		    Support formal requirements-based verification and validation processes for battery management system software
+                  </li>
+                </ul>
+              </section>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Supernal
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Nov 2023 - Mar 2024 | Software Engineer
+                  </p>
+                </header>
+                <ul class="">
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Authored comprehensive requirements for energy storage
+                    system fault diagnostics
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Developed automated testing and reporting framework using MATLAB/Simulink,
+                    Python, and LaTeX for model-based diagnostic software validation, cutting 
+		    verification and validation time by over 70%
+                  </li>
+                </ul>
+              </section>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Maxar Technologies
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Jun - Dec 2020; Jun - Sep 2021 | Ground Software Intern
+                  </p>
+                </header>
+                <ul class="">
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Developed satellite telemetry archival software in C++
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Automated daily verification of telemetry for 90+
+                    spacecraft, a task that normally took up to 1.5 hours to do
+                    manually every day
+                  </li>
+                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                    <span
+                      class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px"
+                      >›</span
+                    >
+                    Ran unit tests for command and telemetry processing to
+                    prepare for new software releases
+                  </li>
+                </ul>
+              </section>
             </div>
 
-
-            <section class="mb-4.5 break-inside-avoid">
-              <header>
-                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                  Baskin School of Engineering
-                </h3>
-                <p class="leading-normal text-md text-gray-650">
-                Apr 2019 - Mar 2023 | Tutor/Grader
-                </p>
-              </header>
-              <ul class="">
-                <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Assisted students in understanding and debugging lab assignments as well as graded work for 5 different classes
-                </li>
-                <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                  <span class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px">›</span>
-                  Subjects included embedded systems, computer architecture, C/C++, FPGA programming with Verilog, MIPS/RISC-V ASM
-                </li>
-              </ul>
+    <!--           <header> -->
+    <!--             <h3 class="text-lg font-semibold text-gray-700 leading-snugish"> -->
+    <!--               Baskin School of Engineering -->
+    <!--             </h3> -->
+    <!--             <p class="leading-normal text-md text-gray-650"> -->
+    <!--               Apr 2019 - Mar 2023 | Tutor/Grader -->
+    <!--             </p> -->
+    <!--           </header> -->
+    <!--           <ul class=""> -->
+    <!--             <li class="mt-2.1 text-md text-gray-700 leading-normal"> -->
+    <!--               <span -->
+    <!--                 class="absolute -ml-3 sm:-ml-3.2 select-none transform -translate-y-px" -->
+    <!--                 >›</span -->
+    <!--               > -->
+    <!--               Assisted students with lab assignments and graded work for 5 different classes, -->
+		  <!-- with subjects including C/C++, computer architecture, Verilog, and RISC-V ASM -->
+    <!--           </ul> -->
             </section>
 
             <!-- <section class="mb-4.5 break-inside-avoid"> -->
@@ -241,37 +232,130 @@
             <!--     </li> -->
             <!--   </ul> -->
             <!-- </section> -->
-
           </section>
 
+          <!-- █▀▀ █▀▄ █░█ █▀▀ ▄▀█ ▀█▀ █ █▀█ █▄░█  -->
+          <!-- ██▄ █▄▀ █▄█ █▄▄ █▀█ ░█░ █ █▄█ █░▀█  -->
+
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
+                EDUCATION
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    University of California, Santa Cruz
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    B.S. Computer Engineering (2023)
+                  </p>
+                  <p class="mt-2.1 text-md text-gray-700 leading-normal">
+                    Relevant coursework: Computer Architecture, Mechatronics,
+                    Circuit Design, Data Structures & Algorithms
+                  </p>
+                </header>
+              </section>
+            </div>
+          </section>
+
+          <!-- █▀█ █▀█ █▀█ ░░█ █▀▀ █▀▀ ▀█▀ █▀  -->
+          <!-- █▀▀ █▀▄ █▄█ █▄█ ██▄ █▄▄ ░█░ ▄█  -->
+
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
+                PROJECTS
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    <a href="https://garado.dev/posts/mechatronics/" class="group" target="_blank">
+                      Autonomous Robot
+                      <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Nov - Dec 2022 | C
+                  </p>
+                </header>
+                <p class="mt-2.1 text-md text-gray-700 leading-normal">
+		  Led software development for autonomous robot capable of target detection and projectile launching.
+		  Implemented sensor fusion algorithms for target identification and ranging, motor control systems for precise movement and aiming,
+		  and navigation algorithms for obstacle avoidance on PIC32 MCU. Collaborated on hardware design and mechanical systems integration.
+                </p>
+              </section>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <header>
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    <a href="https://github.com/garado/amphy" class="group" target="_blank">
+                      Game Boy Emulator
+                      <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                    </a>
+                  </h3>
+                  <p class="leading-normal text-md text-gray-650">
+                    Dec 2022 | C++
+                  </p>
+                </header>
+                <p class="mt-2.1 text-md text-gray-700 leading-normal">
+		  Nintendo Game Boy emulator in C++ with full CPU instruction set implementation, graphics rendering, and memory mapping. 
+                </p>
+              </section>
+            </div>
+          </section>
 
           <!-- █▀ █▄▀ █ █░░ █░░ █▀  -->
           <!-- ▄█ █░█ █ █▄▄ █▄▄ ▄█  -->
 
           <section class="mt-8 first:mt-0">
-
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
-
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
                 SKILLS
               </h2>
 
               <section class="mb-4.5 break-inside-avoid">
                 <header>
-                  <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
-                    Hardware  
+                  <h3
+                    class="text-lg font-semibold text-gray-700 leading-snugish"
+                  >
+                    Hardware
                   </h3>
                 </header>
                 <div class="my-3.2 last:pb-1.5">
-                  <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                    <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> C/C++ Embedded Programming </li>
-                    <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> Circuit Design </li>
-                    <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> Verilog </li>
+                  <ul
+                    class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                  >
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      C/C++ Embedded Programming
+                    </li>
+                    <li
+                      class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                    >
+                      Circuit Design
+                    </li>
                   </ul>
                 </div>
               </section>
-
             </div>
 
             <section class="mb-4.5 break-inside-avoid">
@@ -281,28 +365,53 @@
                 </h3>
               </header>
               <div class="my-3.2 last:pb-1.5">
-                <ul class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6">
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> Python </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> Lua </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> Git </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> Linux </li>
-                  <li class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"> RISC-V ASM </li>
+                <ul
+                  class="flex flex-wrap text-md leading-relaxed -mr-1.6 -mb-1.6"
+                >
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    C
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    Python
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    Git
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    Linux
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    RISC-V ASM
+                  </li>
+                  <li
+                    class="px-2.5 mr-1.6 mb-1.6 text-base text-gray-750 print:bg-white print:border-inset bg-gray-200"
+                  >
+                    LaTeX
+                  </li>
                 </ul>
               </div>
             </section>
-
           </section>
-
 
           <!-- █▀█ █▀▀ █▀█ █▀ █▀█ █▄░█ ▄▀█ █░░  -->
           <!-- █▀▀ ██▄ █▀▄ ▄█ █▄█ █░▀█ █▀█ █▄▄  -->
 
           <section class="mt-8 first:mt-0">
-
             <!-- To keep in the same column -->
             <div class="break-inside-avoid">
-
-              <h2 class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal">
+              <h2
+                class="mb-4 font-bold tracking-widest text-sm2 text-gray-550 print:font-normal"
+              >
                 CONTACT
               </h2>
 
@@ -311,19 +420,28 @@
                   <li class="mt-1.5 leading-normal text-gray-700 text-md">
                     <a href="//garado.dev" class="group">
                       garado.dev
-                      <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                      <span
+                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                        >↗</span
+                      >
                     </a>
                   </li>
                   <li class="mt-1.5 leading-normal text-gray-700 text-md">
                     <a href="//linkedin.com/in/garado" class="group">
                       linkedin.com/in/garado
-                      <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                      <span
+                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                        >↗</span
+                      >
                     </a>
                   </li>
                   <li class="mt-1.5 leading-normal text-gray-700 text-md">
                     <a href="//github.com/garado" class="group">
                       github.com/garado
-                      <span class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in">↗</span>
+                      <span
+                        class="inline-block text-gray-550 print:text-black font-normal group-hover:text-gray-700 transition duration-100 ease-in"
+                        >↗</span
+                      >
                     </a>
                   </li>
                   <li class="mt-1.5 leading-normal text-gray-700 text-md">
@@ -331,19 +449,12 @@
                   </li>
                 </ul>
               </section>
-
             </div>
-
           </section>
-
         </div>
         <!-- end Column -->
-
       </div>
       <!-- end Page -->
-
     </main>
-
   </body>
-
 </html>
